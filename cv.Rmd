@@ -60,11 +60,11 @@ if(params$pdf_mode){
 }
 ```
 
-Contact {#contact}
+Kontakt {#kontakt}
 --------------------------------------------------------------------------------
 
 ```{r}
-CV %>% print_contact_info()
+CV %>% print_kontakt_info()
 ```
 
 
