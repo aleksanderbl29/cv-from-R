@@ -45,12 +45,15 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
+<!-- ```{r}
+Build interactive network of positions colored by section
+and connected if they occurred in the same year
 datadrivencv::build_network_logo(CV$entries_data)
-```
+``` -->
 
+<!-- ![Aleksander Bang-Larsen](portrait-djof.jpeg) -->
+
+<img src="portrait-djof.jpeg" alt="Aleksander Bang-Larsen" style="width: 100%; max-width: 150px; margin: 0 auto; display: block; border-radius: 5%;">
 
 ```{r}
 if(params$pdf_mode){
@@ -83,9 +86,9 @@ Disclaimer {#disclaimer}
 
 Lavet med R-pakken [**pagedown**](https://github.com/rstudio/pagedown).
 
-Kildekoden kan findes på [github.com/aleksanderbl29/cv-from-r](https://github.com/aleksanderbl29/cv-from-r).
+Koden kan findes på [github.com/aleksanderbl29/cv-from-r](https://github.com/aleksanderbl29/cv-from-r).
 
-Sidst opdateret `r Sys.Date()`.
+Sidst opdateret d.`r format(Sys.Date(), format = "%d-%m-%Y")`.
 
 
 
